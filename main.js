@@ -21,5 +21,4 @@ var admin = name;
 alert("Имя "+admin);
 
 // Third Task
-
 console.log(1000 + '108');
