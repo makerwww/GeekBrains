@@ -18,7 +18,7 @@ CTempVal.onchange = function(){
 var name = "Василий"
 var admin = name;
 
-alert("Name is "+admin);
+alert("Имя "+admin);
 
 // Third Task
 
