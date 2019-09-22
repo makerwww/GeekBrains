@@ -1,2 +1,2 @@
 # GeekBrains
-Geekbrains lessons are here
+Geekbrains JavaScript lessons are here
