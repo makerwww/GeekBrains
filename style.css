@@ -1,0 +1,48 @@
+.game-board{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.goods{
+    display:flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+.goods_item{
+    width: 220px;
+    height: 270px;
+    box-shadow: 2px 2px 12px 4px lightgrey;
+    margin: 0 15px;
+    text-align: center;
+    padding: 15px;
+}
+.goods_item button{
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+}
+.basket-box{
+    /* min-width: 30px; */
+    height: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    background-color: lightgrey;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: .4s;
+    padding: 5px 35px 5px 10px;
+}
+
+/* td{
+    width: 30px;
+    height: 30px;
+    border:  1px solid black;
+} */
