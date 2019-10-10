@@ -1,0 +1,76 @@
+.game-board{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.goods{
+    display:flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+.goods_item{
+    width: 220px;
+    height: 270px;
+    box-shadow: 2px 2px 12px 4px lightgrey;
+    margin: 0 15px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.goods_item button{
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+}
+.clear-button{
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+.basket{
+    position: relative;
+}
+.basket__box{
+    /* min-width: 30px; */
+    height: 30px;
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+    background-color: lightgrey;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: .4s;
+    padding: 5px 35px 5px 10px;
+}
+.basket__list{
+    min-width: 200px;
+    max-height: 220px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    position: fixed;
+    right: 0;
+    bottom: 120px;
+    margin-top: 8px;
+    padding: 15px;
+    overflow: scroll;
+}
+.basket__list p{
+    border-bottom: 1px solid black;
+}
+.hidden{
+    visibility: hidden;
+}
+/* td{
+    width: 30px;
+    height: 30px;
+    border:  1px solid black;
+} */
